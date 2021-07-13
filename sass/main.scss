@@ -1,0 +1,10 @@
+@import'./base/modern-normolize';
+@import'./base/global-reset';
+@import'./utils/variables';
+@import'./base/global-sizing';
+@import'./components/header';
+@import'./components/hero';
+
+body{
+    font-family: Open Sans;
+}
