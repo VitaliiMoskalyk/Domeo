@@ -10,7 +10,7 @@
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),
-    url(../../images/header-bg.jpg);
+    url(.././images/header-bg.jpg);
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -19,7 +19,7 @@
         rgba(0, 0, 0, 0.3),
         rgba(0, 0, 0, 0.3)
       ),
-      url(../../images/header-bg2x.jpg);
+      url(.././images/header-bg2x.jpg);
   }
   background-repeat: no-repeat;
   background-position: center;
