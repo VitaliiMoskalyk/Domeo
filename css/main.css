@@ -389,7 +389,22 @@ section {
   margin-bottom: 30px;
 }
 
+.hero-pretitle::before {
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 150px;
+  margin-bottom: 151px;
+  display: block;
+  height: 150px;
+  background: url(../../images/Vector.svg) no-repeat center;
+}
+
 .hero-title {
+  position: relative;
   text-align: center;
   font-family: Banny;
   font-size: 96px;
@@ -446,6 +461,16 @@ section {
   height: 40px;
   border-radius: 50%;
   border: none;
+}
+
+.hero__time-working {
+  position: absolute;
+  top: 60%;
+  left: 95px;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  font-size: 12px;
+  line-height: 1;
 }
 
 body {
